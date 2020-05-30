@@ -71,3 +71,6 @@ button:nth-child(16) {
 button:nth-child(20) {
     background-color: rebeccapurple;
 }
+.made {
+    color: #fff;
+}

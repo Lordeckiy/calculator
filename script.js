@@ -1,3 +1,10 @@
+let audio = new Audio('audio/soundbutton.mp3');
+let button = document.querySelectorAll('.number')
+button.forEach(element => {
+    element.addEventListener('click', function () {
+        audio.play();
+    })
+})
 function getHistory() {
     return document.getElementById('history-value').innerText;
 }
